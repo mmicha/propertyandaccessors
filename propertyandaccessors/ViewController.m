@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+- (NSString*)superstring {
+    
+    return [_superstring stringByAppendingString:@"Самара РУЛИТ!!!"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
