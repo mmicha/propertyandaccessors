@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) NSArray *superArray;
 @end
 
 @implementation ViewController
@@ -23,6 +23,8 @@
 {
     [super viewDidLoad];
 	_superstring = @"I'm supertring!";
+    _superArray = @[@"one", @"two", @"вот так можно объявлять массивы"];
+    
     
 }
 
