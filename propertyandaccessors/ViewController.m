@@ -13,7 +13,6 @@
 @end
 
 @implementation ViewController
-@synthesize superstring = _superstring;
 
 - (void)viewDidLoad
 {
