@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	superstring = @"I'm supertring!";
+	_superstring = @"I'm supertring!";
     
 }
 
@@ -31,7 +31,7 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     
-    self.myLabel.text = superstring;
+    self.myLabel.text = _superstring;
     
 }
 
