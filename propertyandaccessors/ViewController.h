@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    NSString *superstring;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

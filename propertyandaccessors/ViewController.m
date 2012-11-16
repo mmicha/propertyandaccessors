@@ -14,10 +14,12 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	superstring = @"I'm supertring!";
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +27,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)buttonPressed:(UIButton *)sender {
+    
+ 
+    
+    self.myLabel.text = superstring;
+    
+}
+
 
 @end
