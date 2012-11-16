@@ -10,10 +10,12 @@
 
 @interface ViewController : UIViewController {
     
-    NSString *superstring;
+//    NSString *superstring;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+@property (strong, nonatomic) NSString *superstring;
 
 - (IBAction)buttonPressed:(UIButton *)sender;
 
