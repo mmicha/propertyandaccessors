@@ -35,7 +35,7 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     
-    self.myLabel.text = _superstring;
+    self.myLabel.text = [self superstring];
     
 }
 
