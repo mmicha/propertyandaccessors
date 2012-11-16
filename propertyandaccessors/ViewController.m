@@ -25,6 +25,14 @@
 	_superstring = @"I'm supertring!";
     _superArray = @[@"one", @"two", @"вот так можно объявлять массивы"];
     
+    NSNumber *number = @45;
+    
+    NSLog(@"%d", [number integerValue] );
+    
+    
+    NSDictionary *dict = @{@"my_key_1" : @"SAMARA",
+                           @"my_key_2" : @"PITER" };
+    NSLog(@"%@", [dict description]);
     
 }
 
